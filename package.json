@@ -1,0 +1,14 @@
+{
+  "name": "photogallery",
+  "version": "1.0.0",
+  "description": "Image gallery with filter using html, css and javascript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kavya Datchayani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery with Filter</title>
+    <!-- Css Style sheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <!-- header with filter buttons -->
+      <div class="header">
+        <h1>Image Gallery</h1>
+
+        <div class="filter-buttons">
+          <button class="btn active" filter="all">All</button>
+          <button class="btn" filter="flower">Flowers</button>
+          <button class="btn" filter="trees">Trees</button>
+          <button class="btn" filter="mountains">Mountains</button>
+        </div>
+      </div>
+      <!-- Gallery div, images with paticular category -->
+      <div class="gallery">
+        <!-- img divs -->
+        <div class="images" category="flower">
+          <img src="/img/flower1.jpg" alt="flower1" width="600" height="400" />
+          <div class="title">Daisy</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="trees">
+          <img src="/img/tree3.jpg" alt="tree3" width="600" height="400" />
+          <div class="title">Tree</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="flower">
+          <img src="/img/flower2.jpg" alt="flower2" width="600" height="400" />
+          <div class="title">Red Rose</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="mountains">
+          <img src="/img/mount1.jpg" alt="Mountain1" width="600" height="400" />
+          <div class="title">Mountain</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="flower">
+          <img src="/img/flower3.jpg" alt="flower3" width="600" height="400" />
+
+          <div class="title">Orange Tulips</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="mountains">
+          <img src="/img/mount3.jpg" alt="Mountain3" width="600" height="400" />
+          <div class="title">Mountain</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="trees">
+          <img src="/img/tree1.jpg" alt="tree1" width="600" height="400" />
+          <div class="title">Tree</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="mountains">
+          <img src="/img/mount2.jpg" alt="Mountain2" width="600" height="400" />
+          <div class="title">Mountain</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="images" category="trees">
+          <img src="/img/tree2.jpg" alt="tree2" width="600" height="400" />
+          <div class="title">Tree</div>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/js/main.js"></script>
+</html>
